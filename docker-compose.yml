@@ -1,0 +1,30 @@
+version: '3'
+services:
+  backend:
+    build:
+      context: ./backend
+    ports:
+      - "8080:8080" 
+    environment:
+      - PORT=8080
+      - DATABASE_URL=mongodb+srv://nadir:nadirdulic@cluster0.ekjsq4r.mongodb.net/facebook?retryWrites=true&w=majority
+      - TOKEN_SECRET=nadirsecret
+      - BASE_URL=http://localhost:3000
+      - EMAIL=fbproject2023@gmail.com
+      - MAILING_ID=562686215433-4gmflb9rr2geti0fgtp77ntoi4bp8msn.apps.googleusercontent.com
+      - MAILING_SECRET=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
+      - MAILING_REFRESH=1//04C-DInIP83YTCgYIARAAGAQSNwF-L9IrvqHehcWNYxzME9pqo44nXZHSjfYYomD6bQGXKGDFw5hIRn5DgrnpVruW1wj0-po8270
+      - MAILING_ACCESS=ya29.a0AfB_byDRUgS3Sc_9H5_ZMgiEulgmOEEYGYQSYoyfL5KqWyjnwm4engbI08-Hp3GQoUObPheB7eCCzZYnGWgXrWZnRUbEo2OtOlDjwKoa0g9vDikmMKUxD9DHfQ2Rk60CMhncBdGLVUf4gYT5NkCyYOA_WT08JE5uYw0RaCgYKAaoSARESFQGOcNnCYGoi_Xi632xn13bZfADJLg0171
+      - CLOUD_NAME=dsguaamj8
+      - CLOUD_API_KEY=582126383996797
+      - CLOUD_API_SECRET=rP2Feue6mJX751EBg5_28E-b4sU
+    depends_on:
+      - frontend
+
+  frontend:
+    build:
+      context: ./frontend
+    ports:
+      - "3000:3000" 
+    environment:
+      - REACT_APP_BACKEND_URL=http://localhost:8080

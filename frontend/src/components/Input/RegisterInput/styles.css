@@ -1,0 +1,37 @@
+.inputWrapReg {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.inputWrapReg input {
+  outline: none;
+  border: 1px solid var(--bgThird);
+  background: var(--bgPrimary);
+  width: 100%;
+  height: 50px;
+  font-size: 17px;
+  border-radius: 10px;
+  padding-left: 10px;
+  margin-bottom: 10px;
+  color: var(--colorPrimary);
+}
+.errorBorder {
+  border-color: red !important;
+}
+.inputWrapReg i {
+  position: absolute;
+  right: 10px;
+  top: 15px;
+  transform: scale(0.8);
+}
+.inputError {
+  position: relative;
+  padding: 15px 10px;
+  background: #b94a48;
+  width: 100%;
+  color: white;
+  font-size: 12px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}

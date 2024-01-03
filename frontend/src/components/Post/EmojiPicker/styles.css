@@ -1,0 +1,25 @@
+.postEmojisContainer{
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 10px 15px;
+}
+.postEmojisContainer img{
+  width: 40px;
+  cursor: pointer;
+}
+.postEmojisContainer i:hover{
+  filter: invert(80%)
+}
+.commentEmojiPicker {
+  position: absolute;
+  right: 0;
+  bottom: 2.5rem;
+}
+.rlMove{
+  right: -7rem;
+}
+.imagesInput{
+  display: flex;
+}

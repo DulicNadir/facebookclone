@@ -1,0 +1,38 @@
+.resetForm{
+  position: relative;
+  background: var(--bgPrimary);
+  box-shadow: 0px 1px 2px var(--shadow1);
+  border-radius: 10px;
+  width: 350px;
+  height: 280px;
+}
+.resetFormHeader{
+  padding:15px;
+  font-weight: 600;
+  font-style: 24px;
+  border-bottom: 1px solid var(--bgThird);
+}
+.resetFormText{
+  padding: 15px;
+  font-size: 17px;
+  color: var(--color-third);
+}
+.resetForm form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 1px solid var(--bgThird);
+}
+.resetFormButtons{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  margin-top: 5px;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+.resetFormButtons a, .resetFormButtons button{
+  width: 90px;
+}

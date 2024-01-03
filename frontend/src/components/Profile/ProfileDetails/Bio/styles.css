@@ -1,0 +1,13 @@
+.detailsInput{
+  margin-top: 10px;
+  background: var(--bgSecondary) !important;
+}
+.detailsInput:focus{
+  outline-color: var(--blueColor) !important;
+  outline-offset: 1px !important;
+}
+.addBioContainer .flex{
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-between;
+}

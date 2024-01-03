@@ -1,0 +1,39 @@
+.resetGrid{
+  display: grid;
+  grid-template-columns: 1fr;
+  font-size: 15px;
+  color: var(--colorSecondary);
+}
+.resetLeft{
+  padding:15px;
+}
+.resetGrid label{
+  display:flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  padding: 5px;
+}
+.resetLeft input{
+  width: 20px;
+  height: 20px;
+}
+.labelCol{
+  display: flex;
+  flex-direction: column;
+}
+.resetRight{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.resetRight img{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.dynamic{
+  height: 420px;
+}

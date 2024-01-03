@@ -1,0 +1,42 @@
+.homeRight{
+  position: fixed;
+  right: 00.7vw;
+  top: 4rem;
+  width: 17vw;
+}
+.heading{
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--colorSecondary);
+  padding: 10px 0px;
+}
+.hr{
+  height: 1.3px;
+  background-color: var(--divider);
+  margin: 9px 2px 0px 1px;
+}
+.contactsHeader{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding:12px 0px 7px 0px;
+  font-weight: 600;
+  color: var(--colorSecondary);
+}
+.contactsCircle{
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.contactsHeaderRight{
+  display: flex;
+  align-items: center;
+}
+.contactsList{
+  padding:5px;
+}

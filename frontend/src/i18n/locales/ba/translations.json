@@ -1,0 +1,9 @@
+{
+  "aboutMe": "Nešto o meni..",
+  "backToHome": "Nazad na početnu",
+  "introAboutMe": "Zovem se Nadir Dulić i po profesiji sam software developer. Trenutno studiram na Prirodno-matematičkom fakultetu u Sarajevu, smjer IT. Ovaj sajt je napravljen u svrhu predstavljanja mojih vještina i znanja u oblasti programiranja. Već godinu dana sam zaposlen u firmi ReSys, te tamo radim kao full stack developer, sa malo većim akcentom na frontend.",
+  "mySkills": "Poprilično sam dobar u React.js-u, te mi se to najviše sviđa raditi. Također sam radio i sa Angularom, ali mi se React više sviđa. Backend sam najviše radio u Node.js-u, ali sam se kroz rad susretao i sa Javom i Python-om.",
+  "moreAboutMe": "U slobodno vrijeme volim se baviti sportom, mada je to u posljednje vrijeme preraslo u gledanje sporta. Također konstantno tražim nove prilike i projekte za rad, kako bih unaprijedio svoje vještine i ostvario kontakte na tržištu.",
+  "kontakt": "Ako ste zainteresovani za saradnju, možete me kontaktirati na neki od navedenih načina:",
+  "pageTranslated": "P.S. Ova stranica je napravljena prvenstveno za prikaz rada prevoda."
+}

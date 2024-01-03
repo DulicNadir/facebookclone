@@ -1,0 +1,34 @@
+.singleComment {
+  display: flex;
+  gap: 5px;
+  font-size: 14px;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+.commentImg {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.commentImage {
+  margin-top: 5px;
+  width: 200px;
+  height: 150px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+.commentWrap {
+  background: var(--bg-forth);
+  padding: 5px 15px;
+  border-radius: 50px;
+}
+.commentActions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--colorSecondary);
+  margin-left: 10px;
+}

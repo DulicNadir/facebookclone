@@ -1,0 +1,27 @@
+.infoProfile {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 15px;
+  color: var(--colorPrimary);
+}
+.infoProfile img {
+  filter: invert(40%);
+}
+.infoText{
+  word-break: break-word;
+}
+.infoCol{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.infoCol button{
+  width: 100%;
+}
+.w100{
+  width: 100%;
+  margin: 10px 0;
+}

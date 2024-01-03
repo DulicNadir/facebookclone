@@ -1,0 +1,111 @@
+.postBox{
+  position: fixed;
+  top: 400px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: var(--bgPrimary);
+  box-shadow: 0px 12px 28px 0px var(--shadow1), 0px 2px 4px 0px var(--shadow2), inset 0px 0px 0px 1px var(--shadowInset);
+  min-height: 228px;
+  width: 500px;
+  border-radius: 5px;
+}
+@media (max-width:620px){
+  .postBox{
+    width: 80%;
+  }
+  .postInput{
+    width: 290px !important;
+    font-size: 20px !important;
+  }
+  .addText{
+    font-size: 10px !important;
+
+  }
+}
+.postBoxHeader{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 15px;
+  border-bottom: 1px solid var(--bgThird)
+}
+.postBox .smallCircle{
+  position: absolute;
+  right: 16px;
+  top: 8px;
+}
+.boxProfile{
+  display: flex;
+  gap: 12px;
+  padding: 17px 17px 5px 17px;
+}
+.boxProfileImg{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.boxCol{
+  transform: translateY(-7px);
+}
+.boxProfileName{
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+.boxPrivacy{
+  display: flex;
+  align-items: center;
+  width: 81px;
+  gap: 4px;
+  font-size: 12px;
+  padding:3px 8px 4px 8px;
+  border-radius: 7px;
+  background: var(--bgThird);
+  cursor: pointer;
+}
+.boxPrivacy span{
+  margin-bottom: 1px;
+}
+.flexCenter{
+  min-height: 90px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.postInput{
+  position: relative;
+  outline: none;
+  border: none;
+  resize: none;
+  padding: 5px 15px;
+  margin-bottom: 10px;
+  width: 470px;
+  margin-left: 1px;
+  font-family: inherit;
+  font-size: 24px;
+  background-color: var(--bgPrimary);
+  color: var(--colorPrimary);
+}
+.flexCenter textarea{
+  min-height: 90px;
+  background: transparent;
+  overflow-y: visible;
+  position: absolute;
+}
+.postBtn{
+  width: calc(100% - 18px);
+  margin: 5px 10px;
+  padding: 10px;
+  outline: none;
+  border: none;
+  background: var(--blueColor);
+  color: white;
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+}

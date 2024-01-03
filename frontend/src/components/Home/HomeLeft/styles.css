@@ -1,0 +1,14 @@
+.leftHome{
+  position: fixed;
+  margin-top: 50px;
+  left: 5px;
+  max-height: 100vh;
+  width: 15vw;
+  overflow-y: auto;
+  color: var(--colorPrimary);
+  padding: 15px 0px;
+  padding-bottom: 5rem;
+}
+.rotate180{
+  transform: rotate(180deg);
+}

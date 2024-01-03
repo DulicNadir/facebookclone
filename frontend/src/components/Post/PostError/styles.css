@@ -1,0 +1,24 @@
+.postError{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: var(--bgPrimary);
+  opacity: 0.8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  color: red;
+  gap: 15px;
+  animation: anim 0.4s;
+}
+@keyframes anim{
+  0%{
+    width: 0;
+  }
+  100%{
+    width: 100%;
+  }
+}

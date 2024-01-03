@@ -1,0 +1,28 @@
+.friendSuggestions{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    border: 2px solid var(--borderColor);
+    padding: 10px 15px;
+}
+.suggestionsHeader{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 600;
+  font-size: 16px;
+}
+.suggestionList{
+  display: flex;
+  gap: 10px;
+  height: 240px;
+  align-items: center;
+}
+.suggestionList .lightBlueBtn{
+  color: var(--blueColor);
+}
+@media(max-width:750px){
+  .friendSuggestions{
+    display: none;
+  }
+}

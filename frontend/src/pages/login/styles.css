@@ -1,0 +1,145 @@
+.loginWrapper {
+  background: var(--bgSecondary);
+}
+.loginWrap {
+  height: 92vh;
+  color: var(--colorPrimary);
+}
+.login1 {
+  width: 300px;
+  margin: 0 auto;
+}
+.login1 span {
+  font-size: 20px;
+}
+.login2 {
+  text-align: center;
+}
+.login2Wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  background: var(--bgPrimary);
+  box-shadow: 0 1px 2px var(--shadow1);
+  padding: 1rem;
+  padding-bottom: 2rem;
+  width: 350px;
+  height: fit-content;
+  margin: 1rem auto;
+  user-select: none;
+  border-radius: 10px;
+}
+.login2Wrap button {
+  width: 100%;
+  height: 50px;
+  font-size: 17px;
+  font-weight: 700;
+}
+.forgotPassword {
+  color: var(--blueColor);
+  font-size: 14px;
+  cursor: pointer;
+}
+.forgotPassword:hover {
+  text-decoration: underline;
+}
+.signSplitter {
+  width: 100%;
+  height: 1px;
+  background: var(--bgThird);
+}
+.openSignup {
+  background: var(--greenColor);
+  width: 70% !important;
+  font-weight: 600 !important;
+  font-size: 17px !important;
+  margin-top: 1rem;
+}
+.openSignup:hover {
+  background: var(--darkGreenColor);
+}
+.signExtra {
+  font-size: 15px;
+}
+.loginFooter {
+  height: 22vh;
+  background: var(--bgPrimary);
+  padding: 1.5rem;
+}
+.loginFooterWrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3px 10px;
+  font-size: 13px;
+  color: var(--colorSecondary);
+  max-width: 350px;
+  margin: 0 auto;
+}
+.loginFooterWrap a {
+  display: flex;
+  align-items: center;
+}
+.loginFooterWrap a:hover {
+  text-decoration: underline;
+}
+.footerSquare {
+  background: var(--bgSecondary);
+  height: 19px;
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--bgThird);
+}
+.footerSquare i {
+  transform: scale(0.8);
+  -webkit-filter: invert(40%);
+}
+.footerSplitter {
+  width: 100%;
+  height: 1px;
+  background: var(--bgThird);
+  margin: 10px auto;
+  max-width: 900px;
+}
+@media (min-width: 539px) {
+  .loginFooterWrap {
+    max-width: 520px;
+  }
+}
+@media (min-width: 650px) {
+  .loginFooterWrap {
+    max-width: 650px;
+  }
+}
+@media (min-width: 850px) {
+  .loginWrap {
+    display: flex;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  .login1 {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-bottom: 15vh;
+  }
+  .login1 img {
+    width: 300px;
+    margin-left: -1.5rem;
+  }
+  .login1 span {
+    font-size: 20px;
+  }
+  .loginFooterWrap {
+    max-width: 900px;
+  }
+}
+@media (max-width: 376px) {
+  .loginWrap {
+    height: 95vh;
+    color: var(--colorPrimary);
+  }
+}

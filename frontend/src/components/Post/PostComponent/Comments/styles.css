@@ -1,0 +1,60 @@
+.createCommentContainer{
+  padding:10px 15px;
+}
+.createComment{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.createComment img{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.commentInputContainer{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  background: var(--bg-forth);
+  border-radius: 50px;
+  padding-right: 10px;
+}
+.commentInputContainer input{
+  outline: none;
+  border: none;
+  flex: 1;
+  height: 35px;
+  padding: 0 10px;
+  color: var(--colorPrimary);
+  background-color: transparent;
+}
+.openEmojiIcon{
+  height: 30px;
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 50%;
+}
+.imagePreview{
+  margin-top: 5px;
+  margin-left: 40px;
+  width: 160px;
+  position: relative;
+}
+.imagePreview img{
+  width: 150px;
+  height: 110px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.imagePreview .smallWhiteCircle{
+  top: -6px;
+  right: 0px;
+  transform: scale(0.8);
+  border: 1px solid black;
+}

@@ -1,0 +1,13 @@
+.friendship{
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.friendsMenuContainer{
+  padding: 5px;
+}
+.friendsMenuContainer .openCoverMenuItem{
+  border-bottom: 1px solid black;
+  width: 150px;
+}

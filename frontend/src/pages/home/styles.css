@@ -1,0 +1,135 @@
+.home { 
+  min-height: 100vh;
+  background: var(--bgSecondary);
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+.homeMiddle{
+  margin-top: 75px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.aside, .EmojiPickerReact, .epr-main{
+  z-index: 2 !important;
+}
+@media (max-width:1175px){
+  .stories, .createPost{
+    width: 100%;
+  }
+  .homeMiddle{
+    margin-left: 5%;
+  }
+  .homeRight{
+    width: 18vw;
+  }
+}
+@media (max-width:1025px){
+  .leftHome .leftLink span, .leftHome .leftLink .col{
+    display: none;
+  }
+  .leftHome{
+    width: 70px;
+  }
+  .leftLink{
+    background: var(--bgThird);
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+  }
+  .homeMiddle{
+    position: relative;
+    margin-left: 55px;
+  }
+  .homeRight{
+    width: 22vw;
+  }
+}
+@media (max-width:875px){
+  .homeRight{
+    display: none;
+  }
+  .homeMiddle{
+    margin-left: 20%;
+  }
+  .createPost{
+    width: 130%;
+  }
+
+}
+@media (max-width:815px){
+  .stories{
+    grid-template-columns: repeat(6,13vw);
+  }
+  .storyProfileName, .storyCreateText{
+    display: none;
+  }
+  .stories .whiteCircle{
+    right: 5px;
+  }
+  .storyProfilePicture{
+    width: 7vw;
+    height: 7vw;
+  }
+  .leftHome::-webkit-scrollbar{
+    display: none;
+  }
+}
+@media (max-width:620px){
+  .leftHome{
+    display: none;
+  }
+  .homeMiddle{
+    position: relative; 
+    margin-left: 2%;
+  }
+  .createPost{
+    width: 130%;
+  }
+  .stories .whiteCircle{
+    display: none;
+  }
+  .stories{
+    grid-template-columns: repeat(6,13vw);
+  }
+  .story,.createStoryCard{
+    height: 30vw;
+  }
+  .createPostIcon{
+    font-size: 12px;
+  }
+  .openPost{
+    font-size: 16px;
+  }
+  .createPostIco svg{
+    width: 20px;
+  }
+}
+@media (max-width:500px){
+  .createPost{
+    width: 320px;
+  }
+  .postBox{
+    width: 95% !important;
+  }
+  .aside, .EmojiPickerReact, .epr-main{
+    width: 250px !important;
+    height: 350px !important;
+    z-index: 2 !important;
+  }
+  .postBox .postInput{
+    font-size: 14px !important;
+    width: 250px !important;
+  }
+  .commentEmojiPicker{
+    width: 200px !important;
+  }
+  .createPostIcon{
+    font-size: 10px;
+  }
+  .posts, .post{
+    width: 320px !important;
+  }
+}

@@ -1,0 +1,18 @@
+.spaceBetween{
+  justify-content: space-between;
+}
+.settingsFlex{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.viewType{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  font-weight: 600;
+  color: var(--colorSecondary);
+  padding: 10px;
+}

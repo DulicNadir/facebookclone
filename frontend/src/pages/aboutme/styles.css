@@ -1,0 +1,55 @@
+.aboutMe{
+  position:absolute;
+  top:10%;
+  left:25%;
+  border: 1px solid rgb(48, 46, 51);
+  width: 800px;
+  height: 800px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: white;
+}
+.aboutMeHeader{
+  display: flex;
+  justify-content: space-between;
+}
+.languageButtons{
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 200px;
+  padding-top: 20px;
+}
+.moreAboutMe{
+  margin-top: 20px;
+  display: flex;
+  gap: 15px;
+  justify-content: space-between;
+}
+.moreAboutMeText{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: white;
+  background-color: rgb(69, 67, 73);
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+.projectImages{
+  display: flex;
+  margin: 30px 0px;
+  justify-content: space-evenly;
+  gap: 5px;
+}
+.projectImages img{
+  border-radius: 10px;
+}
+.contactMe{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 20px;
+}

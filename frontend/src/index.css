@@ -1,0 +1,156 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+}
+html {
+  overflow-y: scroll;
+  background: var(--bgSecondary);
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+:root {
+  --bgPrimary: #fff;
+  --bgSecondary: #f0f2f5;
+  --bgThird: #e4e6eb;
+  --bg-forth: #f0f2f5;
+  --colorPrimary: #050505;
+  --colorSecondary: #65676b;
+  --divider: #ced0d4;
+  --blueColor: #1876f2;
+  --darkBlueColor: #0e4894;
+  --greenColor: #42b72a;
+  --darkGreenColor: #2d751e;
+  --borderColor: #ccced2;
+  --shadow1: rgba(0, 0, 0, 0.2);
+  --shadow2: rgba(0, 0, 0, 0.1);
+  --shadowInset: rgba(255, 255, 255, 0.5);
+}
+
+.blueBtn {
+  display: flex;
+  border: none;
+  outline: none;
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--bgPrimary);
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+  background: var(--blueColor);
+}
+.lightBlueBtn{
+  display: flex;
+  border: none;
+  outline: none;
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--bgPrimary);
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+  background: var(--light-blue-color);
+}
+.grayBtn {
+  display: flex;
+  border: none;
+  outline: none;
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 600;
+  color: #000;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+  background: var(--bgThird);
+}
+.blur {
+  position: fixed;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.768);
+  z-index: 99;
+}
+.blueBtn:hover {
+  background: var(--darkBlueColor);
+}
+
+.hover1:hover {
+  background: var(--bgSecondary);
+}
+.hover2:hover {
+  background: var(--bgThird);
+}
+.hover3:hover {
+  background: #d4d6da3a
+}
+.card{
+  height: 500px;
+  width: 500px;
+  background-color:red;
+}
+
+.scrollbar::-webkit-scrollbar{
+  width: 8px;
+}
+.scrollbar::-webkit-scrollbar-thumb{
+  background: #aeaeafa1;
+  border-radius: 10px;
+}
+.circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.smallCircle{
+  position:relative;
+  height: 36px;
+  width: 36px;
+  margin-right: 10px;
+  border-radius: 50%;
+  background-color: var(--bgThird);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.circleIcon{
+  position: relative;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 8px;
+  background: var(--bgThird);
+  cursor: pointer;
+}
+.filterBlue {
+  filter: invert(39%) sepia(57%) saturate(200%) saturate(200%) saturate(200%)
+    saturate(200%) saturate(200%) saturate(147.75%) hue-rotate(202deg)
+    brightness(97%) contrast(96%);
+}
